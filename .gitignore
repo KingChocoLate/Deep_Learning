@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Secret Kaggle API key
+kaggle.json
+
+# Downloaded dataset files
+kaggle_data/
+dataset/
+*.zip
+
+# Trained model files
+saved_models/
+*.pth
+*.pt
+
+# Generated outputs
+output/
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/

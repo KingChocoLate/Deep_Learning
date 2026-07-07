@@ -21,11 +21,6 @@ kaggle_data/
 dataset/
 *.zip
 
-# Trained model files
-saved_models/
-*.pth
-*.pt
-
 # Generated outputs
 output/
 outputs/

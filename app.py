@@ -6,13 +6,13 @@ import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
 import streamlit as st
-from utils import get_device, show_image
 
 
 # Allow app.py to import files from src/
 sys.path.append("src")
 
 from model import PlantDiseaseModel
+from utils import get_device, show_image
 
 
 MODEL_PATH = Path("saved_models/plant_disease_resnet18_model.pth")

@@ -3,3 +3,7 @@ torch
 torchvision
 pillow
 numpy
+matplotlib
+pathlib
+sklearn
+utils
